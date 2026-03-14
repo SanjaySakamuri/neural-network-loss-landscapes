@@ -25,3 +25,16 @@ class FailurePrediction:
     def train(self):
 
         self.model.fit(np.array(self.X), np.array(self.y))
+
+    def predict(self, features):
+        
+        x = np.array(
+            [
+                [ 
+                    features['loss_slope'],
+                    features['avg_grad_norm'],
+                    features['grad_variance'],
+                ]
+            ]
+        )
+        return self.model.predict(x)[0]
