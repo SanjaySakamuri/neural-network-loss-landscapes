@@ -1,5 +1,5 @@
 
-# Neural Network Loss Landscape Visualization
+# Neural Network Loss Landscapes: A Comparative Study of SGD, RMSProp, and Adam
 
 ## Overview
 ## Loss Landscape Visualization
