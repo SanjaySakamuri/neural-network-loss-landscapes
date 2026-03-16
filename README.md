@@ -3,7 +3,7 @@
 ## Overview
 ## Loss Landscape Visualization
 
-![Loss Landscape](Screenshot%202026-03-15%20225714.png)
+![Loss Landscape](plot.png)
 
 
 
