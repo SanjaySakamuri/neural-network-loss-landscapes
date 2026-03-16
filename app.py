@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 
 st.set_page_config(page_title="Loss Landscape Dynamics", layout="wide", page_icon="🏔️")
 
-st.title("🏔️ Neural Network Loss Landscapes: A Comparative Study of SGD, RMSProp, and Adam")
+st.title("Neural Network Loss Landscapes: A Comparative Study of SGD, RMSProp, and Adam")
 st.markdown("""
 **Parameter Space vs. Feature Space Dynamics.** Watch how different optimization algorithms navigate the high-dimensional empirical risk surface (projected via Principal Directions) and how their physical movement alters the model's real-world decision boundary.
 """)
@@ -105,7 +105,7 @@ def project_trajectory(trajectory, base_weights, d1, d2):
     return x_coords, y_coords
 
 with st.sidebar:
-    st.header("⚙️ Hyperparameters")
+    st.header("Hyperparameters")
     
     optimizer_choice = st.radio(
         "Optimizer Algorithm", 
